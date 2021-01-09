@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name>wishApp</servlet-name>
+		<servlet-class>com.Servlet.Html_TO_Servlet.WishServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>wishApp</servlet-name>
+		<url-pattern>/wishApp</url-pattern>
+	</servlet-mapping>
+</web-app>
