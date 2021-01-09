@@ -1,0 +1,38 @@
+<web-app>
+	<servlet>
+		<servlet-name>excel</servlet-name>
+		<servlet-class>com.servlet.mimeType.Excel_servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>excel</servlet-name>
+		<url-pattern>/excel</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>html</servlet-name>
+		<servlet-class>com.servlet.mimeType.Htmlservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>html</servlet-name>
+		<url-pattern>/html</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>word</servlet-name>
+		<servlet-class>com.servlet.mimeType.Word_servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>word</servlet-name>
+		<url-pattern>/word</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>xml</servlet-name>
+		<servlet-class>com.servlet.mimeType.Xml_servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>xml</servlet-name>
+		<url-pattern>/xml</url-pattern>
+	</servlet-mapping>
+</web-app>
