@@ -1,0 +1,14 @@
+<web-app>
+	<welcome-file-list>
+		<welcome-file>input.html</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>marrige_Eligibility</servlet-name>
+		<servlet-class>com.servlet.marrige.Marrige_Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>marrige_Eligibility</servlet-name>
+		<url-pattern>/marrigeTest</url-pattern>
+	</servlet-mapping>
+</web-app>
