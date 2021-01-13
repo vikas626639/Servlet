@@ -1,0 +1,62 @@
+<h1 style="color: red; text-align: center;">
+	<b><u>PERSON DETAILS</u></b>
+</h1>
+<form action="person" method="Post">
+	<table align="center" border="1">
+		<tr>
+			<td>Name ::</td>
+			<td><input type="text" name="name" placeholder="ENTER FULL NAME"></td>
+		</tr>
+		<tr>
+			<td>Age ::</td>
+			<td><input type="password" name="age"></td>
+		</tr>
+		<tr>
+			<td>Gender ::</td>
+			<td><input type="radio" name="gen" value="M" checked="checked">MALE
+				<br> <input type="radio" name="gen" value="F">FEMALE</td>
+		</tr>
+		<tr>
+			<td>Address ::</td>
+			<td><textarea name="address" rows="4" cols="20">enter address</textarea></td>
+		</tr>
+		<tr>
+			<td>Marital Status ::</td>
+			<td><input type="radio" name="ms" value="MARRIED">Married<br>
+				<input type="radio" name="ms" value="UNMARRIED">UnMarried</td>
+		</tr>
+		<tr>
+			<td>Qualification ::</td>
+			<td><select name="qlfy">
+					<option value="">SELECT QULIFICATION</option>
+					<option value="B.TECH">ENGINIRING</option>
+					<option value="MBBS">MEDICAL</option>
+					<option value="SOFTWARE ENGINIEAR">SOFTWARE Eng</option>
+					<option value="arts">ARTS</option>
+					<option value="bsc">B.SC</option>
+					<option value="bcom">B.COM</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td>Courses ::</td>
+			<td><select name="course">
+					<option value="">SELECT COURSE</option>
+					<option value="java">JAVA</option>
+					<option value=".net">.NET</option>
+					<option value="testing">TESTING</option>
+			</select>
+		</tr>
+		<tr>
+			<td>Hobbies ::</td>
+			<td><input type="checkbox" name="hb" value="reading"
+				checked="checked">Reading <br>
+				 <input type="checkbox" name="hb" value="stamp">Stamp Collection<br>
+				 <input type="checkbox" name="hb" value="rooming">Travelling</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center"><input type="submit" value="SUBMIT">&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="reset" value="CANCLE"></td>
+		</tr>
+	</table>
+</form>
+
