@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="proj10-working with multiple button and multiple hyperlinks">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="proj10-working_with_multiple_button_and_multiple_hyperlinks"/>
+        <property name="java-output-path" value="/proj10-working with multiple button and multiple hyperlinks/build/classes"/>
+    </wb-module>
+</project-modules>
