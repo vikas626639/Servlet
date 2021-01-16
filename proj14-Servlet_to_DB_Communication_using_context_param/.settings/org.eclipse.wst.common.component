@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="proj14-Servlet_to_DB_Communication_using_context_param">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/" source-path="/WebContent/WEB-INF"/>
+                
+        <property name="context-root" value="proj14-Servlet_to_DB_Communication_using_context_param"/>
+                
+        <property name="java-output-path" value="/proj14-Servlet_to_DB_Communication_using_context_param/build/classes"/>
+            
+    </wb-module>
+    
+</project-modules>
