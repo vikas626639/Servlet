@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="proj20-working with send redirection method wth two server">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="proj20-working_with_send_redirection_method_wth_two_server"/>
+        <property name="java-output-path" value="/proj20-working with send redirection method wth two server/build/classes"/>
+    </wb-module>
+</project-modules>
