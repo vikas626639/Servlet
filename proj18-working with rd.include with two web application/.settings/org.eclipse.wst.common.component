@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="proj18-working with rd.include with two web application">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="proj18-working_with_rd.include_with_two_web_application"/>
+        <property name="java-output-path" value="/proj18-working with rd.include with two web application/build/classes"/>
+    </wb-module>
+</project-modules>
