@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="proj17-working with rd.include p133">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="proj17-working_with_rd.include_p133"/>
+        <property name="java-output-path" value="/proj17-working with rd.include p133/build/classes"/>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="3.0"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<welcome-file-list>
+		<welcome-file>input.html</welcome-file>
+	</welcome-file-list>
+	<context-param>
+		<param-name>driver</param-name>
+		<param-value>oracle.jdbc.driver.OracleDriver</param-value>
+	</context-param>
+	<context-param>
+		<param-name>password</param-name>
+		<param-value>manager</param-value>
+	</context-param>
+	<context-param>
+		<param-name>url</param-name>
+		<param-value>jdbc:oracl:thin:@localhost:1521:orcl</param-value>
+	</context-param>
+	<context-param>
+		<param-name>user</param-name>
+		<param-value>system</param-value>
+	</context-param>
+	
+	<servlet>
+		<servlet-name>dbServlet</servlet-name>
+		<servlet-class>com.nit.servleet.DB_Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>dbServlet</servlet-name>
+		<url-pattern>/DB_Servlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>headerServlet</servlet-name>
+		<servlet-class>com.nit.servleet.Header_servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>headerServlet</servlet-name>
+		<url-pattern>/Header_servlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>errorServlet</servlet-name>
+		<servlet-class>com.nit.servleet.ErrorServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>errorServlet</servlet-name>
+		<url-pattern>/error</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
