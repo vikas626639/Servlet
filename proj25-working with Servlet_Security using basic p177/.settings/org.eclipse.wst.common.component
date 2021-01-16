@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="proj25-working with Servlet_Security using basic p177">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="proj25-working_with_Servlet_Security_using_basic_p177"/>
+        <property name="java-output-path" value="/proj25-working with Servlet_Security using basic p177/build/classes"/>
+    </wb-module>
+</project-modules>
