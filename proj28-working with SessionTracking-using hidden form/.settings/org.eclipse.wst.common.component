@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="proj28-working with SessionTracking-using hidden form">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="proj28-working_with_SessionTracking-using_hidden_form"/>
+        <property name="java-output-path" value="/proj28-working with SessionTracking-using hidden form/build/classes"/>
+    </wb-module>
+</project-modules>
