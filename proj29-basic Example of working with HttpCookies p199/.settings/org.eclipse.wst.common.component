@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="proj29-basic Example of working with HttpCookies p199">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="proj29-basic_Example_of_working_with_HttpCookies_p199"/>
+        <property name="java-output-path" value="/proj29-basic Example of working with HttpCookies p199/build/classes"/>
+    </wb-module>
+</project-modules>
