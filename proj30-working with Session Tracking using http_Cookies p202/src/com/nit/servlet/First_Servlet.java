@@ -1,0 +1,67 @@
+package com.nit.servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+@WebServlet(asyncSupported = true, urlPatterns = { "/First_Servlet" })
+public class First_Servlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	
+	public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+		res.setContentType("text/html");
+		//get Writer 
+		PrintWriter pw=res.getWriter();
+		//
+		//read form data
+		String name=req.getParameter("name");
+		String lname=req.getParameter("lname");
+		String fname=req.getParameter("fname");
+		String mstatus=req.getParameter("ms");
+		//create cookies object to store request one data
+		Cookie c1,c2,c3,c4;
+		c1=new Cookie("name", name);
+		c2=new Cookie("lastname", lname);
+		c3=new Cookie("fathername", fname);
+		c4=new Cookie("ms", mstatus);
+		res.addCookie(c1);
+		res.addCookie(c2);
+		res.addCookie(c3);
+		res.addCookie(c4);//data added on coockies
+		
+		if(mstatus.equals("married")) {
+			//generate second form page
+
+			pw.println("<form action='Secon_Servlet'  method='post'>");
+			pw.println("<table border='1' align='center'>");
+			pw.println("<tr><td>Spouse Name ::</td><td><input type='text' name='st1' placeholder='Enter Name'></td></tr>");
+			pw.println("<tr><td>NUMBER OF CHILDREN NAME ::</td><td><input type='text' name='st2'></td></tr>");
+			pw.println("<tr><td colspan='2' align='center'><input type='submit' value='submit'></td></tr>");
+			pw.println("</table>");
+			pw.println("</form>");
+		}else {
+			pw.println("<form action='Secon_Servlet'  method='post'>");
+			pw.println("<table border='1' align='center'>");
+			pw.println("<tr><td>When do you want marry ::</td><td><input type='text' name='st1' ></td></tr>");
+			pw.println("<tr><td>Why do you want to marry ::</td><td><input type='text' name='st2'></td></tr>");
+			pw.println("<tr><td colspan='2' align='center'><input type='submit' value='submit'></td></tr>");
+			pw.println("</table>");
+			pw.println("</form>");
+		}
+	
+	}
+	
+	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		doGet(request, response);
+	}
+
+}
